@@ -11,7 +11,7 @@ namespace MVCCountryLab
         {
             Name = _name;
             Continent = _continent;
-            Colors = new List<string>();
+            Colors = _color;
         }
 	}
 }
